@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cmd="btcd -C /btcd/btcd.conf"
+cmd="btcd -C /btcd/btcd.conf --addrindex"
 
 [ -n "$BTCD_LIMITUSER" ] && cmd="$cmd --rpclimituser=${BTCD_LIMITUSER}"
 [ -n "$BTCD_LIMITPASS" ] && cmd="$cmd --rpclimitpass=${BTCD_LIMITPASS}"
