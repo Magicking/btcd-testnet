@@ -11,6 +11,7 @@ services:
         ports:
           - 0.0.0.0:8333:8333
           - 0.0.0.0:18333:18333
+          - 0.0.0.0:28334:8334
         logging:
           driver: "json-file"
           options:
